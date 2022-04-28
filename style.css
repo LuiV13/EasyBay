@@ -1,0 +1,204 @@
+/* This is to reset the margin 
+and padding*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Takes away the dots in the li*/
+ul li{
+    list-style: none;
+}
+/* Holds everything in the webpage*/
+#container{
+    width: 900px;
+    height: auto;
+    margin-left: 500px;
+}
+
+#nav-bar{
+    width: 800px;
+    height: auto;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}    
+
+.leaf{
+    background-color: turquoise;
+    margin-top: 50px;
+    height: 25px;
+}
+
+.search-bar{
+    width: 400px;
+    height: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.account{
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.your-cart{
+    background-color: transparent;
+    border: 0ch;
+    height: 1px;
+    width: 3px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.cart{
+    height: 15px;
+    width: 15px;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.line{
+    border: 5px solid black;
+    background-color: black;
+    height: 0%;
+    width: 800px;
+}
+
+.content-text{
+    font-weight: 100;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 55px;
+    justify-content: space-between;
+}
+
+.main-content{
+    margin-top: 20px;
+    width: 300px;
+    height: 250px;
+    color: white;
+    background-color: turquoise;
+}
+
+.discovertime{
+    display: flex;
+    font-size: 25px;
+    padding-left: 15px;
+    
+}
+
+.discover{
+    color: #ffff;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.arrow{
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    
+}
+
+#succulents{ 
+    width: 200px;
+    height: 250px;
+}
+
+.pictures{
+    display: flex;
+    padding-left: 200px;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+
+.plant{
+    padding-left: 15px;
+}
+
+.aloe{
+    width: 300px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.soothing{
+    color: #ffff;
+    font-size: 30px;
+    height: 86px;
+    width: 285px;
+    background-color: turquoise;
+    padding-left: 20px;
+}
+
+.footer{
+    width: 821px;
+    height: 150px;
+    background-color: turquoise;
+    margin-top: 20px;
+    color: black;
+}
+
+.plants{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ul img{
+    margin-top: 20px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+}
+
+.cookies h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 60px;
+    height: 100px;
+    width: 700px;
+    border: 2px solid black;
+    font-size: 15px;
+    box-shadow: 3px 3px black;
+}
+
+.btn button{
+    width: 70px;
+    height: 20px;
+    margin-top: 15px;
+    color: #ffff;
+    background-color: turquoise;
+    box-shadow: 3px 3px black;
+}
+
+.alert{
+    height: 60px;
+    width: 60px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.accept{
+    margin-left: 15px;
+}
+
+
+
